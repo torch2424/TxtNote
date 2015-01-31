@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/deleteNote"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="@string/deleteNote"/>
+    
+    <item
+        android:id="@+id/editNote"
+        android:orderInCategory="90"
+        android:showAsAction="collapseActionView"
+        android:title="@string/editNote"/>
+
+</menu>

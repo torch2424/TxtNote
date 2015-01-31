@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.torch2424.txtnote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/txtnote1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.torch2424.txtnote.EnterNote"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.torch2424.txtnote.ReadNoteMenu"
+            android:label="@string/title_activity_read_note_menu"
+            android:parentActivityName="com.torch2424.txtnote.EnterNote" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.torch2424.txtnote.EnterNote" />
+        </activity>
+        <activity
+            android:name="com.torch2424.txtnote.ReadNote"
+            android:label="@string/title_activity_read_note"
+            android:parentActivityName="com.torch2424.txtnote.ReadNoteMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.torch2424.txtnote.ReadNoteMenu" />
+        </activity>
+        <activity
+            android:name="com.torch2424.txtnote.EditNote"
+            android:label="@string/title_activity_edit_note"
+            android:parentActivityName="com.torch2424.txtnote.ReadNote" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.torch2424.txtnote.ReadNote" />
+        </activity>
+    </application>
+
+</manifest>

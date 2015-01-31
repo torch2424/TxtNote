@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TxtNote</string>
+    <string name="action_settings">Read notes</string>
+    <string name="defaultText">Enter note here</string>
+    <string name="button">Save</string>
+    <string name="title">Enter note title (Avoid using slashes)</string>
+    <string name="title_activity_read_note_menu">TxtNote</string>
+    <string name="title_activity_read_note">TxtNote</string>
+    <string name="deleteNote">Delete File</string>
+    <string name="editNote">Edit File</string>
+    <string name="title_activity_edit_note">EditNote</string>
+    <string name="deleteConfirm">Are you sure you would like to delete this?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+     <string name="longConfirm">What would you like to do?</string>
+     <string name="loading">Loading...</string>
+    
+
+</resources>
