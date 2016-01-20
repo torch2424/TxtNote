@@ -1,7 +1,7 @@
 # TxtNote
 A simple .txt note taking app for android
 
-![TxtNote Img](http://aaronthedev.com/images/txtscreen.bf044a6d.png)
+![TxtNote Img](https://aaronthedev.com/images/txtscreen.9444bead.png)
 
 ##Submitting Pull Requests and Issues
 **Please Please Please** Submit any bugs or any fixes you would like fixed about the app. 
@@ -13,11 +13,6 @@ So any help finding and squashing bugs is appreciated :)
 Clone the repo, and open in Android Studio :) These projects may have weird issues opening, since I've been doing
 Android since the Eclipse days, things may need a little work to get everything up and running!
 
+## LICENSE
 
-##License
-
-All Assets and rights of the application are reserved to Aaron Turner (Me)
-
-However this code is open-source and may be used to help in your own projects
-
-P.S I don't know much about each licenses haha
+Licensed under the [Apache License 2.0](http://choosealicense.com/licenses/apache-2.0/)
