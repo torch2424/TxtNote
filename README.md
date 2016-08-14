@@ -1,7 +1,7 @@
 # TxtNote
 A simple .txt note taking app for android
 
-![TxtNote Img](https://aaronthedev.com/images/txtscreen.9444bead.png)
+![TxtNote Img](https://files.aaronthedev.com/$/kfn8t)
 
 ##Submitting Pull Requests and Issues
 **Please Please Please** Submit any bugs or any fixes you would like fixed about the app. 
